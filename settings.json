@@ -1,0 +1,39 @@
+{
+  "env": {
+    "CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION": "false"
+  },
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit(services/**)",
+      "Write(services/**)",
+      "Bash(yarn lint:*)",
+      "Bash(yarn lint:files:*)",
+      "Bash(yarn types:build:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(cat:*)",
+      "Bash(xargs:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(.venv/bin/pyright:*)",
+      "Bash(./run_tests.sh:*)"
+    ],
+    "deny": [
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git stash:*)",
+      "Bash(find:*)",
+      "Bash(./cdk-wrapper.sh:*)",
+      "Bash(./cdk.sh:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(pipx:*)",
+      "Bash(.venv/bin/python:*)",
+      "Bash(.venv/bin/python3:*)",
+      "Bash(cdk:*)"
+    ]
+  },
+  "alwaysThinkingEnabled": true
+}
