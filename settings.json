@@ -4,6 +4,7 @@
   },
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
+  "disableAllHooks": true,
   "permissions": {
     "allow": [
       "Read",
