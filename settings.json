@@ -77,7 +77,8 @@
       "Bash(yarn lint:files)",
       "Bash(yarn lint)",
       "Bash(yarn types:build *)",
-      "Bash(yarn types:build)"
+      "Bash(yarn types:build)",
+      "WebFetch(domain:pypi.org)"
     ],
     "deny": [
       "Bash(./cdk-wrapper.sh *)",
