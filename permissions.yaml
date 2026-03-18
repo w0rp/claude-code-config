@@ -1,5 +1,0 @@
----
-allow:
-  - xargs ls:*
-  - yarn lint:files*
-  - yarn types:build*
