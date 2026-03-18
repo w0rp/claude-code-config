@@ -2,6 +2,8 @@
   "env": {
     "CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION": "false"
   },
+  "alwaysThinkingEnabled": true,
+  "effortLevel": "high",
   "permissions": {
     "allow": [
       "Read",
@@ -49,7 +51,5 @@
       "Bash(python3 *)",
       "Bash(python *)"
     ]
-  },
-  "alwaysThinkingEnabled": true,
-  "effortLevel": "high"
+  }
 }
