@@ -80,19 +80,29 @@
       "Bash(yarn types:build *)"
     ],
     "deny": [
+      "Bash(./cdk-wrapper.sh)",
       "Bash(./cdk-wrapper.sh *)",
+      "Bash(./cdk.sh)",
       "Bash(./cdk.sh *)",
-      "Bash(.venv/bin/python3 *)",
+      "Bash(.venv/bin/python)",
       "Bash(.venv/bin/python *)",
+      "Bash(.venv/bin/python3)",
+      "Bash(.venv/bin/python3 *)",
       "Bash(cdk *)",
+      "Bash(curl *)",
       "Bash(find *)",
+      "Bash(wget *)",
       "Bash(git add *)",
       "Bash(git checkout *)",
       "Bash(git commit *)",
       "Bash(git stash *)",
+      "Bash(pip *)",
+      "Bash(pip3 *)",
       "Bash(pipx *)",
-      "Bash(python3 *)",
-      "Bash(python *)"
+      "Bash(python)",
+      "Bash(python *)",
+      "Bash(python3)",
+      "Bash(python3 *)"
     ]
   }
 }
