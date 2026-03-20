@@ -186,6 +186,10 @@
         "~/.pypirc",
         "~/.netrc",
         "~/.kube/**"
+      ],
+      "allowRead": [
+        "~/.config/git/ignore",
+        "~/.config/git/attributes"
       ]
     }
   },
