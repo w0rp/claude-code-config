@@ -161,6 +161,9 @@
         "/Users/andrewwray/.docker/run/docker.sock"
       ]
     },
+    "excludedCommands": [
+      "pbcopy"
+    ],
     "filesystem": {
       "denyWrite": [
         "./.git/**",
