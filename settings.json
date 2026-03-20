@@ -43,7 +43,10 @@
       "Bash(yarn lint)",
       "Bash(yarn types:build *)",
       "Bash(yarn types:build)",
-      "WebFetch(domain:pypi.org)"
+      "WebFetch(domain:pypi.org)",
+      "WebFetch(domain:docs.astral.sh)",
+      "WebFetch(domain:download.pytorch.org)",
+      "WebFetch(domain:docs.github.com)"
     ],
     "deny": [
       "Bash(./cdk-wrapper.sh *)",
