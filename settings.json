@@ -158,7 +158,7 @@
     "network": {
       "allowedDomains": [],
       "allowUnixSockets": [
-        "/Users/andrewwray/.docker/run/docker.sock"
+        "~/.docker/run/docker.sock"
       ]
     },
     "excludedCommands": [
