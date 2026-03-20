@@ -2,41 +2,6 @@
   "env": {
     "CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION": "false"
   },
-  "alwaysThinkingEnabled": true,
-  "effortLevel": "high",
-  "disableAllHooks": true,
-  "sandbox": {
-    "enabled": true,
-    "autoAllowBashIfSandboxed": true,
-    "allowUnsandboxedCommands": false,
-    "filesystem": {
-      "denyRead": [
-        "./.env",
-        "./.env.*",
-        "./**/.env",
-        "./**/.env.*",
-        "./**/config.toml",
-        "./secrets/**",
-        "./.claude/**",
-        "~/.aws/**",
-        "~/.ssh/**",
-        "~/.gnupg/**",
-        "~/.config/gh/**",
-        "~/.config/git/**",
-        "~/.npmrc",
-        "~/.pypirc",
-        "~/.netrc",
-        "~/.kube/**"
-      ],
-      "denyWrite": [
-        "./.git/**",
-        "./.claude/**"
-      ]
-    },
-    "network": {
-      "allowedDomains": []
-    }
-  },
   "permissions": {
     "allow": [
       "Read",
@@ -184,5 +149,44 @@
       "Bash(xsubpp *)",
       "Bash(xsubpp)"
     ]
-  }
+  },
+  "disableAllHooks": true,
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true,
+    "allowUnsandboxedCommands": false,
+    "network": {
+      "allowedDomains": [],
+      "allowUnixSockets": [
+        "/Users/andrewwray/.docker/run/docker.sock"
+      ]
+    },
+    "filesystem": {
+      "denyWrite": [
+        "./.git/**",
+        "./.claude/**"
+      ],
+      "denyRead": [
+        "./.env",
+        "./.env.*",
+        "./**/.env",
+        "./**/.env.*",
+        "./**/config.toml",
+        "./secrets/**",
+        "./.claude/**",
+        "~/.aws/**",
+        "~/.ssh/**",
+        "~/.gnupg/**",
+        "~/.config/gh/**",
+        "~/.config/git/**",
+        "~/.npmrc",
+        "~/.pypirc",
+        "~/.netrc",
+        "~/.kube/**"
+      ]
+    }
+  },
+  "alwaysThinkingEnabled": true,
+  "effortLevel": "high",
+  "voiceEnabled": true
 }
