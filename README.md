@@ -10,5 +10,27 @@ its local config from that directory:
 git clone git@github.com:w0rp/claude-code-config.git ~/.claude
 ```
 
-If `~/.claude` already exists, move it out of the way or back it up first,
-then clone this repository in its place.
+If `~/.claude` already exists, back it up or move it first:
+
+```bash
+mv ~/.claude ~/.claude.bak
+git clone git@github.com:w0rp/claude-code-config.git ~/.claude
+```
+
+## What is here
+
+- `settings.json` - Claude Code settings, permissions, sandbox rules, and
+  defaults
+- `skills/` - custom skills loaded by Claude Code
+
+## Updating
+
+To pull the latest config changes:
+
+```bash
+git -C ~/.claude pull
+```
+
+## License
+
+This project is released under The Unlicense. See `LICENSE`.
