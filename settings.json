@@ -48,7 +48,11 @@
       "WebFetch(domain:pypi.org)",
       "WebFetch(domain:docs.astral.sh)",
       "WebFetch(domain:download.pytorch.org)",
-      "WebFetch(domain:docs.github.com)"
+      "WebFetch(domain:docs.github.com)",
+      "WebFetch(domain:docs.onelogin.com)",
+      "WebFetch(domain:platform.openai.com)",
+      "WebFetch(domain:community.openai.com)",
+      "WebFetch(domain:developers.openai.com)"
     ],
     "deny": [
       "Bash(./cdk-wrapper.sh *)",
