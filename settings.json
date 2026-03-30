@@ -93,6 +93,7 @@
       "Bash(json_pp)",
       "Bash(libnetcfg *)",
       "Bash(libnetcfg)",
+      "Bash(node -e *)",
       "Bash(nox *)",
       "Bash(nox)",
       "Bash(perl *)",
