@@ -150,7 +150,8 @@
       "Bash(venv/bin/python*)",
       "Bash(wget *)",
       "Bash(xsubpp *)",
-      "Bash(xsubpp)"
+      "Bash(xsubpp)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ]
   },
   "disableAllHooks": true,
