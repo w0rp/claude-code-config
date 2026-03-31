@@ -170,9 +170,6 @@
         "~/.docker/run/docker.sock"
       ]
     },
-    "excludedCommands": [
-      "pbcopy"
-    ],
     "filesystem": {
       "denyWrite": [
         "./.git/**",
@@ -200,7 +197,10 @@
         "~/.config/git/ignore",
         "~/.config/git/attributes"
       ]
-    }
+    },
+    "excludedCommands": [
+      "pbcopy"
+    ]
   },
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
