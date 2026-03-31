@@ -26,6 +26,7 @@
       "Bash(git show *)",
       "Bash(git status *)",
       "Bash(git status)",
+      "Bash(git stash list)",
       "Bash(git tag --list *)",
       "Bash(git tag --list)",
       "Bash(git tag -l *)",
