@@ -209,6 +209,5 @@
   },
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
-  "voiceEnabled": true,
-  "model": "sonnet"
+  "voiceEnabled": true
 }
