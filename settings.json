@@ -110,6 +110,8 @@
       "Bash(json_pp)",
       "Bash(libnetcfg *)",
       "Bash(libnetcfg)",
+      "Bash(mmdc)",
+      "Bash(mmdc *)",
       "Bash(node -e *)",
       "Bash(nox *)",
       "Bash(nox)",
@@ -243,8 +245,7 @@
       ]
     },
     "excludedCommands": [
-      "pbcopy",
-      "mmdc"
+      "pbcopy"
     ]
   },
   "alwaysThinkingEnabled": true,
