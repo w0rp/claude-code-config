@@ -211,6 +211,9 @@
       ]
     },
     "filesystem": {
+      "allowWrite": [
+        "~/.cache/uv"
+      ],
       "denyWrite": [
         "./.git/**",
         "./.claude/**"
