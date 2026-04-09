@@ -235,7 +235,8 @@
       ],
       "allowRead": [
         "~/.config/git/ignore",
-        "~/.config/git/attributes"
+        "~/.config/git/attributes",
+        "~/.cache/uv"
       ]
     },
     "excludedCommands": [
