@@ -243,7 +243,8 @@
       ]
     },
     "excludedCommands": [
-      "pbcopy"
+      "pbcopy",
+      "mmdc"
     ]
   },
   "alwaysThinkingEnabled": true,
