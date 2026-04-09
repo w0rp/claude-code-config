@@ -248,5 +248,8 @@
   },
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
-  "voiceEnabled": true
+  "voiceEnabled": true,
+  "enabledPlugins": {
+    "swift-lsp@claude-plugins-official": true
+  }
 }
