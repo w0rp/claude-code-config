@@ -1,6 +1,8 @@
 {
+  "model": "claude-opus-4-5",
   "env": {
-    "CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION": "false"
+    "CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION": "false",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-4-5-20251101"
   },
   "permissions": {
     "allow": [
