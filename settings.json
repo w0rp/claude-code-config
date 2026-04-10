@@ -203,7 +203,7 @@
       "WebFetch(domain:raw.githubusercontent.com)"
     ]
   },
-  "disableAllHooks": true,
+  "disableAllHooks": false,
   "sandbox": {
     "enabled": true,
     "autoAllowBashIfSandboxed": true,
