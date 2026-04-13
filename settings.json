@@ -1,5 +1,4 @@
 {
-  "model": "claude-opus-4-5",
   "env": {
     "CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION": "false",
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-4-5-20251101"
@@ -203,7 +202,20 @@
       "WebFetch(domain:raw.githubusercontent.com)"
     ]
   },
+  "model": "claude-opus-4-5",
   "disableAllHooks": false,
+  "enabledPlugins": {
+    "swift-lsp@claude-plugins-official": true,
+    "caveman@caveman": true
+  },
+  "extraKnownMarketplaces": {
+    "caveman": {
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman"
+      }
+    }
+  },
   "sandbox": {
     "enabled": true,
     "autoAllowBashIfSandboxed": true,
@@ -252,8 +264,5 @@
   },
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
-  "voiceEnabled": true,
-  "enabledPlugins": {
-    "swift-lsp@claude-plugins-official": true
-  }
+  "voiceEnabled": true
 }
