@@ -63,6 +63,7 @@
       "Bash(uv run types *)",
       "Bash(uv run typing)",
       "Bash(uv run typing *)",
+      "WebFetch(domain:developer.okta.com)",
       "WebFetch(domain:pypi.org)",
       "WebFetch(domain:docs.astral.sh)",
       "WebFetch(domain:download.pytorch.org)",
