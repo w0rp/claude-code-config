@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "plugins": {
+    "swift-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/andrewwray/.claude/plugins/cache/claude-plugins-official/swift-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-04-02T10:51:42.707Z",
+        "lastUpdated": "2026-04-02T10:51:42.707Z",
+        "gitCommitSha": "b091cb4179d3b62a6e2a39910461c7ec7165b1ef"
+      }
+    ],
+    "caveman@caveman": [
+      {
+        "scope": "user",
+        "installPath": "/Users/andrewwray/.claude/plugins/cache/caveman/caveman/63e797cd753b",
+        "version": "63e797cd753b",
+        "installedAt": "2026-04-13T11:23:55.191Z",
+        "lastUpdated": "2026-04-13T11:23:55.191Z",
+        "gitCommitSha": "63e797cd753b301374947a5ed975c21775d962b9"
+      }
+    ]
+  }
+}
