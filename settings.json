@@ -203,7 +203,8 @@
       "Bash(wget *)",
       "Bash(xsubpp *)",
       "Bash(xsubpp)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:techcommunity.microsoft.com)"
     ]
   },
   "model": "claude-opus-4-5",
