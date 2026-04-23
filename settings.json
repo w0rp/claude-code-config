@@ -71,7 +71,8 @@
       "WebFetch(domain:docs.onelogin.com)",
       "WebFetch(domain:platform.openai.com)",
       "WebFetch(domain:community.openai.com)",
-      "WebFetch(domain:developers.openai.com)"
+      "WebFetch(domain:developers.openai.com)",
+      "WebFecth(domain:publicsuffix.org)"
     ],
     "deny": [
       "Bash(./cdk-wrapper.sh *)",
