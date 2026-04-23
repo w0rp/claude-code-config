@@ -196,6 +196,7 @@
       "Bash(uv self *)",
       "Bash(uv generate-shell-completion)",
       "Bash(uv generate-shell-completion *)",
+      "Bash(uv run python *)",
       "Bash(venv/bin/pip*)",
       "Bash(venv/bin/python*)",
       "Bash(wget *)",
