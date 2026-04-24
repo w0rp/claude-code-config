@@ -211,7 +211,8 @@
   "disableAllHooks": false,
   "enabledPlugins": {
     "swift-lsp@claude-plugins-official": true,
-    "caveman@caveman": true
+    "caveman@caveman": true,
+    "pyright-lsp@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "caveman": {
