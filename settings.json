@@ -74,7 +74,8 @@
       "WebFetch(domain:platform.openai.com)",
       "WebFetch(domain:community.openai.com)",
       "WebFetch(domain:developers.openai.com)",
-      "WebFecth(domain:publicsuffix.org)"
+      "WebFecth(domain:publicsuffix.org)",
+      "WebFetch(domain:files.pythonhosted.org)"
     ],
     "deny": [
       "Bash(./cdk-wrapper.sh *)",
