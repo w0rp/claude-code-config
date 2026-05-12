@@ -206,7 +206,8 @@
       "Bash(xsubpp *)",
       "Bash(xsubpp)",
       "WebFetch(domain:raw.githubusercontent.com)",
-      "WebFetch(domain:techcommunity.microsoft.com)"
+      "WebFetch(domain:techcommunity.microsoft.com)",
+      "WebFetch(domain:openaipublic.blob.core.windows.net)"
     ]
   },
   "model": "claude-opus-4-5",
