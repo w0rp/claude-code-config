@@ -238,7 +238,13 @@
     "autoAllowBashIfSandboxed": true,
     "allowUnsandboxedCommands": false,
     "network": {
-      "allowedDomains": [],
+      "allowedDomains": [
+        "localhost",
+        "127.0.0.1",
+        "::1",
+        "postgres",
+        "db"
+      ],
       "allowUnixSockets": [
         "~/.docker/run/docker.sock"
       ]
