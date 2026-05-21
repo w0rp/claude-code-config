@@ -79,7 +79,11 @@
       "WebFecth(domain:cisa.gov)",
       "mcp__claude_ai_Linear__get_*",
       "mcp__claude_ai_Linear__list_*",
-      "mcp__claude_ai_Linear__search_*"
+      "mcp__claude_ai_Linear__search_*",
+      "mcp__claude_ai_Linear__list_issues",
+      "mcp__claude_ai_Linear__get_issue",
+      "mcp__claude_ai_Linear__get_diff_threads",
+      "mcp__claude_ai_Linear__list_diffs"
     ],
     "deny": [
       "Bash(./cdk-wrapper.sh *)",
