@@ -77,7 +77,10 @@
       "WebFecth(domain:publicsuffix.org)",
       "WebFetch(domain:files.pythonhosted.org)",
       "WebFecth(domain:www.cisa.gov)",
-      "WebFecth(domain:cisa.gov)"
+      "WebFecth(domain:cisa.gov)",
+      "mcp__claude_ai_Linear__get_*",
+      "mcp__claude_ai_Linear__list_*",
+      "mcp__claude_ai_Linear__search_*"
     ],
     "deny": [
       "Bash(./cdk-wrapper.sh *)",
@@ -228,7 +231,12 @@
       "Bash(xsubpp)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "WebFetch(domain:techcommunity.microsoft.com)",
-      "WebFetch(domain:openaipublic.blob.core.windows.net)"
+      "WebFetch(domain:openaipublic.blob.core.windows.net)",
+      "mcp__claude_ai_Linear__save_*",
+      "mcp__claude_ai_Linear__create_*",
+      "mcp__claude_ai_Linear__delete_*",
+      "mcp__claude_ai_Linear__prepare_*",
+      "mcp__claude_ai_Linear__extract_*"
     ]
   },
   "model": "claude-opus-4-5",
