@@ -306,7 +306,9 @@
       ]
     },
     "excludedCommands": [
-      "pbcopy"
+      "pbcopy",
+      "uv run test",
+      "uv run test *"
     ]
   },
   "alwaysThinkingEnabled": true,
