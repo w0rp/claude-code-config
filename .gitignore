@@ -4,3 +4,4 @@
 !/plugins
 !/plugins/**
 /plugins/cache/
+/plugins/known_marketplaces.json

@@ -1,0 +1,25 @@
+{
+  "etag": "W/\"2WhfjBJ4YJiv2rLhRvL6uFgGhYUWYylDCmTbeNQ1pJk\"",
+  "rows": [
+    {
+      "name": "nearform/skills-private",
+      "scope": "org",
+      "source": {
+        "source": "claudeai"
+      },
+      "id": "marketplace_01Qe3B9ptKfFNDRDjE2SYNh9",
+      "updated_at": "2026-09-25T09:54:50.468494Z"
+    },
+    {
+      "name": "anthropic-plugin-directory",
+      "display_name": "Anthropic Directory",
+      "scope": "default",
+      "source": {
+        "source": "claudeai"
+      },
+      "id": "marketplace_01VNB7JgJyYTuJiDfXSABKm3",
+      "updated_at": "2026-10-14T14:35:05.183008Z"
+    }
+  ],
+  "parserVersion": 1002
+}
