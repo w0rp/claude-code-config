@@ -270,7 +270,8 @@
         "db"
       ],
       "allowUnixSockets": [
-        "~/.docker/run/docker.sock"
+        "~/.docker/run/docker.sock",
+        "/var/run/docker.sock"
       ]
     },
     "filesystem": {
@@ -307,6 +308,7 @@
     },
     "excludedCommands": [
       "pbcopy",
+      "clip.exe",
       "uv run test",
       "uv run test *"
     ]
