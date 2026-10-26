@@ -232,6 +232,8 @@
       "Bash(wget *)",
       "Bash(xsubpp *)",
       "Bash(xsubpp)",
+      "Read(//**/*.pdf)",
+      "Read(//**/*.PDF)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "WebFetch(domain:techcommunity.microsoft.com)",
       "WebFetch(domain:openaipublic.blob.core.windows.net)",
@@ -242,6 +244,7 @@
       "mcp__claude_ai_Linear__extract_*"
     ]
   },
+  "model": "opus",
   "disableAllHooks": false,
   "enabledPlugins": {
     "swift-lsp@claude-plugins-official": true,
@@ -315,8 +318,14 @@
   },
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
+  "modelSettings": {
+    "claude-opus-5-5": {
+      "effortLevel": "xhigh"
+    }
+  },
   "voice": {
     "enabled": false
   },
+  "switchModelsOnFlag": false,
   "voiceEnabled": false
 }
