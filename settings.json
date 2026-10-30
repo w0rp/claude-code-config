@@ -245,20 +245,6 @@
     ]
   },
   "model": "opus",
-  "hooks": {
-    "Stop": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "powershell.exe -NoProfile -Command \"(New-Object Media.SoundPlayer 'C:/Windows/Media/notify.wav').PlaySync()\"",
-            "async": true
-          }
-        ]
-      }
-    ]
-  },
-  "disableAllHooks": true,
   "enabledPlugins": {
     "swift-lsp@claude-plugins-official": true,
     "caveman@caveman": true,
